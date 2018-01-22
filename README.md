@@ -13,4 +13,4 @@ Some modules added in this boilerplate:
 - eslint
 - jest for unit testing
 
-
+<img width="1277" alt="bbbb" src="https://user-images.githubusercontent.com/6884679/35204903-dd4c5bba-ff63-11e7-936a-4182d9e7eae8.png">
