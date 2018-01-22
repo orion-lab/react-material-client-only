@@ -1,0 +1,68 @@
+.floatingSigninButton--heading {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+}
+
+.floatingSigninButton--heading svg {
+    margin-right: 10px;
+}
+
+.floatingSigninButton--text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.floatingSigninButton--content {
+    padding: 20px 30px;
+}
+
+.floatingSigninButton {
+    max-width: 377px;
+    position: fixed;
+    right: 20px;
+    top: 22px;
+    z-index: 10000;
+    width: 100%;
+}
+
+.floatingSigninButton--heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.floatingSigninButton--headingContent {
+    display: flex;
+    align-items: center;
+}
+
+.floatingSigninButton--closeButton {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.floatingSigninButton--closeButton .material-icons {
+    font-size: 20px !important;
+    color: #979797 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .floatingSigninButton {
+      max-width: none;
+      left: 0;
+      right: 0;
+      top: auto;
+      bottom: 0;
+      transform: translateY(100%);
+      transition: transform 0.2s ease-in;
+  }
+  .floatingSigninButton-appear {
+    transform: translateY(0);
+  }
+}
